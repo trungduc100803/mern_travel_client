@@ -1,0 +1,19 @@
+.MyBlog_title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.MyBlog_content {
+    margin-top: 30px;
+}
+
+.MyBlog_bott {
+    font-size: 1rem;
+    margin-top: 50px;
+}
+
+.MyBlog_bott a {
+    margin: 0 4px;
+}

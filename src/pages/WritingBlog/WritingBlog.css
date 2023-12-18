@@ -1,0 +1,52 @@
+.WritingBlog_title {
+    margin-bottom: 30px;
+    height: 30px;
+    width: 100%;
+}
+
+.WritingBlog_content {
+    position: relative;
+    min-height: 100vh;
+}
+
+.WritingBlog_title input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 1.6rem;
+    color: #ccc;
+    outline: none;
+}
+
+.line {
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    margin: 0 20px;
+    background-color: #f1f1f1;
+}
+
+.WritingBlog_content {
+    display: flex;
+
+}
+
+
+.WritingBlog_edit{
+    width: 50%;
+}
+
+
+
+.WritingBlog_edit .toolbar {
+}
+
+.WritingBlog_edit .editor{
+    font-size: 1rem;
+}
+
+.WritingBlog_preview{
+    width: 50%;
+
+}

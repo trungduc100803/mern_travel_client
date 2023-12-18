@@ -1,0 +1,23 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.sidebar_layout {
+    position: fixed;
+    top: var(--height_header);
+    left: 0;
+    height: 100vh;
+    width: var(--width-sidebar);
+    z-index: 100;
+}
+
+.children {
+    margin-top: var(--height_header);
+    margin-left: calc(var(--width-sidebar) + var(--padding-chidlren));
+    padding: var(--padding-chidlren) 0;
+    padding-right: var(--padding);
+}

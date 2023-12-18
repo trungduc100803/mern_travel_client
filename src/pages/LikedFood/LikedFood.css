@@ -1,0 +1,12 @@
+.LikedFood {
+    font-size: 1rem;
+    margin-top: 50px;
+}
+
+.LikedFood a {
+    margin: 0 4px;
+}
+
+.LikedFood_main{
+    margin-bottom: 100px;
+}

@@ -1,0 +1,22 @@
+.SaveLike {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.SaveLike .icon {
+    font-size: 1.6rem;
+    margin-right: 12px;
+} 
+
+.SaveLike svg{
+    transition: all ease-in 0.3s;
+}
+
+.SaveLike:hover svg {
+    fill: red;
+}
+
+.SaveLike.active  svg{
+    fill: red;
+}

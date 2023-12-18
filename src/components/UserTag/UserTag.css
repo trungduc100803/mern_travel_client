@@ -1,0 +1,26 @@
+.UserTag {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.UserTag_img {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.UserTag_info {
+    flex: 1;
+}
+
+.UserTag_info__name {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.UserTag_info__time {
+    font-size: 0.8rem;
+    color: #8b8989;
+}

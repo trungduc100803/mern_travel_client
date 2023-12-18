@@ -1,0 +1,23 @@
+.Navigation {
+    display: flex;
+    align-items: center;
+    margin: 0 -10px;
+    margin-bottom: 20px;
+}
+
+.Navigation_item {
+    font-size: 1rem;
+    color: var(--primary-color);
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.Navigation_item:hover {
+    color: black;
+    font-weight: 600;
+}
+
+.Navigation_item.active {
+    border-bottom: 3px solid var(--primary-color);
+}

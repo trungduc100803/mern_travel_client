@@ -1,0 +1,111 @@
+/* pc */
+@media (min-width: 1024px) {
+
+}
+
+
+/* tablet */
+@media (min-width: 740px) and ( max-width: 1029px) {
+    /* home */
+    .name_brand {
+        display: none;
+    }
+
+    .Header {
+        padding: 0 30px;
+    }
+
+    .children {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    /* travel and food detail */
+    .TravelDetail {
+    }
+    .Card{
+        width: 48%;
+    }
+    .travel_head {
+        display: block;
+        height: auto;
+    }
+
+    .travel_left{
+        width: 100%;
+        margin-bottom: 28px;
+    }
+
+    .travel_info {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }   
+
+
+    /* payment */
+    .PayPage_body {
+        display: block;
+    }
+
+    .PayPage_left {
+        width: 100%;
+    }
+
+    .PayPage_right{
+        width: 100%;
+    }
+
+    .PayPage_infoCustomer {
+        margin-bottom: 40px;
+    }
+
+    .PayPage_right--name{
+        font-size: 1.2rem;
+    }
+
+    .PayPage_right--body p,
+    .cardCustomer-left p {
+        font-size: 1rem;
+    }
+
+    .PayPage-title {
+        font-size: 1.8rem;
+    }
+
+    .PayPage_right--img {
+        width: 34%;
+        height: 130px;
+    }
+
+
+    /* detail info */
+    
+    .TravelDetailInfo_name {
+        font-size: 1.6rem;
+    }
+
+    .TravelDetailInfo_img {
+        margin-bottom: 30px;
+    }
+
+    .TravelDetailInfo_statusFeedback span{
+        font-size: 1.2rem;
+    }
+
+    .TravelDetailInfo_content h1{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .TravelDetailInfo_content p {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+}
+
+
+/* mobile  */
+@media (max-width: 739px) {
+
+}

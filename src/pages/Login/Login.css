@@ -1,0 +1,29 @@
+.Login {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://newsroom.aaa.com/wp-content/uploads/2021/06/Plane-taking-off-twilight-1024x684.jpg');
+}
+
+.form_login {
+    background-color: white;
+    border-radius: 12px;
+    margin: auto;
+    min-width: 400px;
+    padding: 12px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.heading_login {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.bott_login {
+    text-align: center;
+}

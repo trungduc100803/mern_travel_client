@@ -1,0 +1,41 @@
+.Dropdown{
+    visibility: hidden;
+    position: absolute;
+    top: calc(100% + 8px) ;
+    right: 0;
+    min-width: 200px;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #f8f7f7;
+}
+
+.Dropdown a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.drop_item {
+    padding: 4px 10px;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.drop_item p {
+    margin-left: 12px;
+    font-size: 0.9rem;
+}
+
+.drop_item svg {
+    font-size: 1rem;
+}
+
+.drop_item:hover {
+    background-color: #e6e4e4;
+}
+
+.Dropdown.active{
+    visibility: visible;
+}

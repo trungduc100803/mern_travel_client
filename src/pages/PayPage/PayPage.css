@@ -1,0 +1,275 @@
+.PayPage {
+    padding: 45px;
+}
+
+.PayPage-title{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.PayPage_head{
+    display: flex;
+    background-color: #f3f3f3;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+
+.PayPage_head--img{
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+.PayPage_head--info{
+    flex: 1;
+    padding: 20px;
+}
+
+.PayPage_head--name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.PayPage_head--content{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+
+.PayPage_head--content span{
+    font-weight: 700;
+}
+
+.PayPage_body {
+    display: flex;
+}
+
+.PayPage_left{
+    width: 60%;
+    margin-right: 20px;
+}
+
+.PayPage_right {
+    width: 35%;
+}
+
+
+
+
+.PayPage_infoContact {
+    background-color: #f3f3f3;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 50px;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.PayPage_infoContact--item {
+    width: 40%;
+    padding:20px;
+}
+
+.PayPage_infoContact--item label{
+    font-size: 0.8rem;
+    color: rgb(105, 103, 103);
+}
+
+.PayPage_infoContact--item input{
+    margin-top: 3px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 8px 12px ;
+    outline: none;
+    font-size: 0.9rem;
+    border:1px solid #cccbcb ;
+}
+
+
+.cardCustomer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    border:1px solid #cccbcb ;
+    border-radius: 8px;
+}
+
+.cardCustomer-left h2 {
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.cardCustomer-left p{
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.cardCustomer-right {
+    display: flex;
+    align-items: center;
+}
+
+.cardCustomer-right div{
+    font-size: 1.4rem;
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.cardCustomer-right span{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+
+.PayPage_customer--item {
+    margin-bottom: 12px;
+}
+
+
+.PayPage_right {
+    border:1px solid #cccbcb ;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.infoCustomer-form {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.infoCustomer-item {
+    margin-right: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.infoCustomer-name {
+    width: 150px;
+    height: 30px;
+}
+
+.infoCustomer-item--birth select,
+.infoCustomer-item select{
+    width: 100%;
+    margin-right: 6px;
+    height: 30px;
+    border-radius: 4px;
+    border:1px solid #cccbcb ;
+    outline: none;
+}
+
+.infoCustomer-name>input{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: 4px;
+    border:1px solid #cccbcb ;
+    outline: none;
+
+}
+
+.infoCustomer-birth {
+    flex: 1;
+}
+
+.infoCustomer-item--birth {
+    display: flex;
+    align-items: center;
+}
+
+.infoCustomer-item--birth select{
+    width: 100px;
+}
+
+
+
+.PayPage_right--head {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.PayPage_right--img {
+    width: 24%;
+    height: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 12px;
+}
+
+.PayPage_right--name {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    font-weight: 600;
+    flex: 1;
+}
+
+
+.PayPage_right--time {
+    display: flex;
+    margin-top: 20px;
+}
+
+.PayPage_right--timeIcon .icon {
+    font-size: 1.3rem;
+    margin-right: 20px;
+}
+
+.PayPage_right--timeTitle p {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    color: rgb(116, 112, 112);
+}
+
+.PayPage_right--timeTitle span{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+.PayPage_right--bottItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PayPage_right--body {
+    margin-bottom: 20px;
+}
+
+
+.PayPage_right--bottItem p:first-child,
+.PayPage_right--bottItem span {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.btn_submit_customer {
+    margin-top: 20px;
+    padding: 12px 20px;
+    width: 100px;
+    background-color: green;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn_submit_customer:hover{
+    opacity: 0.8;
+}

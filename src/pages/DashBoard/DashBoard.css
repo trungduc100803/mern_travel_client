@@ -1,0 +1,113 @@
+.DashBoard{
+    display: flex;
+}
+
+.DashBoard_left{
+    width: 25%;
+    text-decoration: none;
+}
+
+
+
+.DashBoard_item {
+    padding: 16px 0;
+    list-style: none;  
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;  
+    transition: all ease-in 0.2s;
+    border-bottom: 0.5px  solid #a8a8a8;
+}
+
+.DashBoard_item.active,
+.DashBoard_item:hover{
+    background-color: rgb(240, 240, 240);
+    padding-left: 10px;
+}
+
+
+
+
+
+.DashBoard_right{
+    width: 75%;
+    margin-left: 30px;
+}
+
+
+.DashBoard_right .nav-item{
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+
+.create_food,
+.create_travel,
+.edit_travel,
+.all_travel {
+    padding-top: 30px;
+}
+
+
+.create_food .row,
+.create_travel .row{
+    margin-bottom: 16px;
+}
+
+.create_travel h4{
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.create_travel label{
+    font-size: 1rem;
+}
+
+.create_travel .label-item {
+    font-size: 0.9rem;
+    margin-bottom: 3px;
+}
+
+.create_travel .label-item_alert {
+    font-size: 0.9rem;
+    margin-bottom: 3px;
+    color: red;
+}
+
+.add_img {
+    min-height: 120px;
+    padding: 10px;
+    margin-top: 12px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(233, 232, 232);
+    display: flex;
+    align-items: center;
+}
+
+.text_no_img {
+    width: 100%;
+    color: #a8a8a8;
+    text-align: center;
+}
+
+.add_img_item{
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    outline: none;
+    border: 0.5px solid rgb(233, 232, 232);
+    overflow: hidden;
+    margin-right: 4px;
+}
+
+.add_img_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.add_tour {
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+}

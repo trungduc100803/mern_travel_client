@@ -1,0 +1,12 @@
+.LikedTravel {
+    font-size: 1rem;
+    margin-top: 50px;
+}
+
+.LikedTravel a {
+    margin: 0 4px;
+}
+
+.LikedTravel_main {
+    margin-bottom: 100px;
+}

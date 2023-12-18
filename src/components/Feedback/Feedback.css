@@ -1,0 +1,37 @@
+.Feedback{
+
+}
+
+.Feedback_name{
+    font-size: 1rem;
+    color: #6e6d6d;
+}
+
+.Feedback_line {
+    width: 80%;
+}
+
+.Feedback_emotions{
+    display: flex;
+    align-items: center;
+}
+
+.Feedback_emotions__item{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Feedback_emotions__item p {
+    font-size: 0.9rem;
+}
+
+.Feedback_emotions__item .icon {
+    font-size: 1.2rem;
+    margin-right: 12px;
+}
+
+.Feedback_emotions__item .icon.active svg {
+    fill: red;
+}

@@ -1,0 +1,159 @@
+.TravelDetailInfo {
+    padding: 45px;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.TravelDetailInfo_head {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.TravelDetailInfo_headLeft {
+    width: 50%;
+}
+
+.TravelDetailInfo_name {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.TravelDetailInfo_statusFeedback span {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.TravelDetailInfo_headRight {
+    display: flex;
+    align-items: center;
+}
+
+.TravelDetailInfo_btnPay {
+}
+
+.TravelDetailInfo_price {
+    font-size: 1.2rem;
+    margin-right: 20px;
+    color: red;
+    font-weight: 600;
+}
+
+
+
+.TravelDetailInfo_body {
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.TravelDetailInfo_img {
+    border-radius: 12px;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.TravelDetailInfo_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.TravelDetailInfo_bott {
+    display: flex;
+    align-items: start;
+}
+
+.TravelDetailInfo_bottLeft {
+    width: 40%;
+    font-size: 0.9rem;
+}
+
+.TravelDetailInfo_bottLeft div {
+    line-height: 2rem;
+}
+
+.TravelDetailInfo_bottLeft span{
+    font-weight: 600;
+    margin: 0 3px;
+}
+
+.TravelDetailInfo_bottRight {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -12px;
+}
+
+
+.TravelDetailInfo_bottRight--item{
+    width: 25%;
+    padding: 12px;
+    margin: 0 -12px;
+}
+
+.TravelDetailInfo_bottRight--item h4{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.TravelDetailInfo_bottRight--item p{
+    font-size: 0.7rem;
+    word-wrap: break-word;
+    line-height: 0.9rem;
+}
+
+
+.TravelDetailInfo_icon {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.TravelDetailInfo_content {
+    margin-top: 100px;
+}
+
+.TravelDetailInfo_content p {
+    font-size: 0.9rem;
+    text-align: justify;
+    line-height: 1.2rem;
+}
+
+
+
+.TravelDetailInfo_fixed {
+    z-index: 111;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.TravelDetailInfo_fixed--left {
+    flex: 1;
+    color: white;
+}
+
+.TravelDetailInfo_fixed--title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.TravelDetailInfo_fixed--time {
+    margin-top: 12px;
+    font-size: 0.8rem;
+}
+
+.TravelDetailInfo_fixed--right {
+    width: 20%;
+}

@@ -1,0 +1,16 @@
+.list_slider, .slider_item {
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.sw-slide, .sw_slide__item {
+    height: 100%;
+}
+
+.slider_item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

@@ -1,0 +1,62 @@
+.Options{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.Options .icon{
+    font-size: 1.2rem;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.Options svg {
+    transition: all ease-in 0.3s;
+    fill: var(--primary-color);
+}
+
+.Options .icon:hover svg{
+    fill: black;
+}
+
+.Options .icon.active svg{
+    fill: rgb(42, 42, 241);
+}
+
+
+.Options .more{
+    visibility: hidden;
+    position: absolute;
+    top: calc(100% + 8px) ;
+    right: 0;
+    min-width: 200px;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #f8f7f7;
+}
+
+.more_item {
+    padding: 4px 10px;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.more_item p {
+    margin-left: 12px;
+    font-size: 0.9rem;
+}
+
+.more_item svg {
+    font-size: 1rem;
+}
+
+.more_item:hover {
+    background-color: #e6e4e4;
+}
+
+.Options .more.active{
+    visibility: visible;
+}

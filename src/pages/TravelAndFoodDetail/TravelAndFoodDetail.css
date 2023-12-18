@@ -1,0 +1,151 @@
+.travel_head{
+    display: flex;
+    height: 60vh;
+}
+
+.travel_left{
+    display: flex;
+    width: 50%;
+}
+
+.travel_ListImg{
+    width: 20%;
+    margin-right: 12px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.travel_ListImg::-webkit-scrollbar{
+    display: none;
+}
+
+.travel_imgItem {
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    transition: all  ease-in 0.4s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.travel_imgItem .travel_img {
+    padding-top: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.travel_imgItem:hover {
+    border: 1px solid var(--primary-color);
+}
+
+.travel_imgItem.active{
+    border: 1px solid var(--primary-color);
+}
+
+
+.travel_mainImg {
+    width: 80%;
+}
+
+
+
+
+
+.travel_info{
+    width: 50%;
+    height: 60vh;
+    margin-left: 30px;
+    position: relative;
+}
+
+.name_travel {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.travel_info__activity {
+    height: 150px;
+    overflow: auto;
+}
+
+.travel_info__activity::-webkit-scrollbar{
+    display: none;
+}
+
+.travel_info span {
+    font-weight: 700;
+}
+
+.travel_info p,
+.travel_info span {
+    font-size: 1rem;
+    margin-right: 6px;
+    line-height: 1.6rem;
+    text-align: justify;
+    color: var(--primary-color);
+}
+
+.travel_like {
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+}
+
+.travel_mid {
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: #f1f0f0;
+    padding: 20px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.travel_bott {
+    margin-top: 100px;
+}
+
+.travel_bott-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.travel_btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.btn_pay .btn {
+    margin-left: 30px;
+    background-color: var(--primary-color);
+}
+
+.btn_pay span {
+    font-size: 0.9rem;
+    margin: 0;
+    align-items: center;
+    color: white;
+}
+
+.btn_pay .btn:hover {
+    opacity: 0.8;
+    background-color: var(--primary-color);
+}
+
+.btn_pay .btn-detailt{
+    margin-left: 30px;
+}
+
+.btn_pay .btn-detailt span {
+    color: #979393;
+}
+
+.btn_pay .btn-detailt:hover span {
+    color: #4096ff;
+}

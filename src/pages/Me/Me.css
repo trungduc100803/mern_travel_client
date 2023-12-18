@@ -1,0 +1,71 @@
+.Me_imgCover {
+    position: relative;
+    height: 300px;
+}
+
+.Me_imgCover .img {
+    padding-top: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+.Me_imgCover .label{
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    min-width: 100px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 12px;
+    background-color: white;
+}
+
+.btn_cover {
+    position: absolute;
+    top: calc(100% + 12px);
+    right: 12px;
+}
+
+
+.btn_cover button{
+    margin-left: 12px;
+}
+
+.btn_cover.hidden {
+    visibility: hidden;
+}
+
+.Me_imgCover .label .icon {
+    margin-right: 12px;
+}
+
+.Me_imgCover input {
+    visibility: hidden;
+}
+
+.Me_avatar {
+    position: absolute;
+    left: 40px;
+    bottom: -80px;
+    background-color: white;
+    width: 160px;
+    height: 160px;
+    border-radius: 1000px;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.name_user {
+    position: absolute;
+    left: calc(100% + 20px);
+    top: 53%;
+    transform:translateY(-50%) ;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+}
